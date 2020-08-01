@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+    #main {
+        font-family: sans-serif;
+        background-color: whitesmoke;
+    }
+
+    #title {
+        text-align: center;
+        background-color: lightgrey;
+        font-size: 40px;
+        margin: auto 10vw;
+        padding: 30px;
+    }
+
+    #img-div {
+        margin: 50px;
+        text-align:center;
+        background-image: linear-gradient(90deg, green, white, orange);
+        padding: 30px;
+    }
+
+    #image {
+        width: 25vw;
+        height: 45vh;
+        border-radius: 10%;
+    }
+
+    #img-caption {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    #tribute-info {
+        text-align: left;
+        font-size: 20px;
+        margin: auto 20vw;
+    }
+
+    #tribute-info p {
+        margin-top: 100px;
+    }
+
+    #tribute-info ul {
+        margin: 50px;
+    }
+
+    #tribute-info ul li {
+        list-style: none;
+    }
+
+    #tribute-info a {
+        text-decoration: none;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id='main'>
+
+        <h2 id='title'>Dr. A.P.J Abdul Kalam</h2>
+
+        <div id='img-div'>
+            <img id='image'
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/A._P._J._Abdul_Kalam.jpg/220px-A._P._J._Abdul_Kalam.jpg"
+                alt="Dr. Abdul Kalam">
+            <div id='img-caption'>The Missile Man of India</div>
+        </div>
+
+        <div id='tribute-info'>
+
+            <p>A.P.J. Abdul Kalam, in full Avul Pakir Jainulabdeen Abdul Kalam, (born October 15, 1931,
+                Rameswaram, India—died July 27, 2015, Shillong), Indian scientist and politician who played a
+                eading role in the development of India’s missile and nuclear weapons programs. He was
+                president of India from 2002 to 2007.
+            </p>
+            <p>
+                Dr. A.P.J. Abdul Kalam is one of India’s most celebrated scientists and statesmen and was 
+                President of the Republic of India from 2002 through 2007. An aeronautical engineer by 
+                training, he significantly advanced rocketry in India’s Defense Research and Development 
+                Organization (DRDO) and Indian Space Research Organization (ISRO). Heir to the vision of 
+                Professor Vikram Sarabhai, who set India on a course of a socio-economically oriented space 
+                program, Dr. Kalam was the man who raised India’s eyes to the stars, and raised India to join 
+                the community of spacefaring nations.
+            </p>
+            <p>
+                Dr. Kalam was regarded as one of the greatest minds, visionaries, and peacemakers of the early 
+                21st century. His integrity and deep belief in everything he did registered strongly with the 
+                Indian people. Kalam was voted one of India’s two most trusted men during a period in which 
+                India deeply distrusted its politicians. He has received many honorary degrees and other honors,
+                including India’s highest civilian award, Bharat Ratna. He is the author of many books, including 
+                an autobiography Wings of Fire.
+            </p>
+            <ul>
+                <li>Dr. Abdul Kalam's <a href="https://space.nss.org/wp-content/uploads/Kalam-2013-Space-Solar-Power-Key-to-a-Livable-Planet-Earth.pdf" target="_blank">2013 Paper</a>.</li>
+                <li>Dr. Abdul Kalam's <a href="https://space.nss.org/2013-isdc-video-dr-abdul-kalam-space-solar-power-key-to-a-livable-planet-earth/" target="_blank">2013 Speech</a>.</li>
+            </ul>
+
+
+            Would you like to read his book, 'Wings on Fire'? There you go <a href="https://www.amazon.in/Wings-Fire-Autobiography-Abdul-Kalam/dp/8173711461" target="_blank">Click here</a>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
