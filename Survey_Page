@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        font-family: sans-serif;
+        color: white;
+        background-image: linear-gradient(90deg, lightgrey, whitesmoke);
+        /* background-color: blueviolet; */
+    }
+
+    #main {
+        background-color: blueviolet;
+        /* text-align:center; */
+        margin: 50px 400px;
+        padding: 50px;
+        border-radius: 5px;
+    }
+    #title {
+        text-align:center;
+        text-decoration: underline;
+    }
+
+    #description {
+        text-align:center;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    #survey-form {
+        font-size: 20px;
+    }
+
+    #name, #email, #number, #dropdown, option {
+        width: 500px;
+        height: 30px;
+        font-size: 20px;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: blueviolet;
+        border-right-color: lightblue;
+        background-image: linear-gradient(90deg, lightblue, blueviolet);
+    }
+
+    #text-area {
+        background-image: linear-gradient(90deg, lightblue, blueviolet);
+        width: 500px;
+        border-radius: 5px;
+        border-style: solid;
+        height: 60px;
+        font-size: 20px;
+        border-right-color: lightblue;
+    }
+
+    button {
+        background-image: linear-gradient(90deg, lightblue, blueviolet);
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 5px;
+        border-right-color: lightblue;
+        border-style: solid;
+    }
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id='main'>
+    <h1 id='title'>The Survey Form</h1>
+    <div id="description">How can we improve ourselves</div>
+    <form id='survey-form'>
+        <label id='name-label' for="name">Name:</label><br>
+        <input type="text" id='name' placeholder="Enter your name"><br>
+
+        <label id="email-label" for="email">Email:</label><br>
+        <input type="email" , id='email' placeholder="Enter your email"><br>
+
+        <label id="number-label" for="number">Age:</label><br>
+        <input type="number" id='number' min="5" max="70" placeholder="Your age (optional)"><br>
+
+        <p>Which dishes are your favourite:</p>
+        <select name="option" id="dropdown">
+            <option disabled selected value>Select dish</option>
+            <option value="chinese">Chinese</option>
+            <option value="italian">Italian</option>
+            <option value="indian">Indian</option>
+            <option value="australian">Australian</option>
+        </select><br>
+
+        <p>What is your Nature:</p>
+        <label>
+            <input name="user-recommend" value="introvert" type="radio" class="input-radio"
+                checked />Introvet</label><br>
+        <label>
+            <input name="user-recommend" value="extrovert" type="radio" class="input-radio" />Extrovert</label><br>
+        <br>
+
+        What would you like to see improved?
+        <span class="clue">(Check all that apply)</span>
+        </p>
+        <label><input name="prefer" value="Our Coffee" type="checkbox" class="input-checkbox" />Our Coffee</label>
+        <br>
+        <label><input name="prefer" value="Drinking Water" type="checkbox" class="input-checkbox" />Drinking Water</label>
+        <br>
+        <label><input name="prefer" value="Sanitation" type="checkbox" class="input-checkbox" />Sanitation</label>
+        <br>
+        <label><input name="prefer" value="hospitality" type="checkbox" class="input-checkbox" />Hospitality</label>
+        <br>
+            <br>
+            <p>Any comments or suggestions?</p>
+<textarea name="text" id="text-area" cols="30" rows="10" placeholder="Enter your comments here"></textarea>
+
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+
+</html>
