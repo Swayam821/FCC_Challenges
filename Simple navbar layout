@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        body {
+            font-size: 20px;
+            font-family: sans-serif;
+
+        }
+
+        .logo {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            position: relative;
+            top: -5px;
+            margin-right: 50px;
+        }
+
+        .nav-bar {
+            position: fixed;
+            margin: 0;
+            padding: 20px;
+            background-color: whitesmoke;
+            height: 100px;
+            width: 100vw;
+            z-index: 10;
+        }
+
+        .nav-bar ul {
+            display: flex;
+        }
+
+        .nav-bar ul li {
+            margin: 5px;
+            padding: 10px;
+        }
+
+        .nav-bar ul li:hover {
+            text-decoration: underline;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .another-ul {
+            position: relative;
+            left: 85vw;
+            top: -60px;
+        }
+
+        .another-ul li {
+            background-color: lightgrey;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .form {
+            margin-top: 100px;
+            display: none;
+        }
+
+        button {
+            margin-top: 100px;
+        }
+
+        
+    </style>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav-bar">
+    <div>
+        <ul>
+            <li class="logo">Mogo.the.blog</li>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>Documentation</li></a>
+            <a href="#"><li>Blog</li></a>
+            <a href="#"><li>About Us</li></a>
+            <a href="#"><li>Contact Us</li></a>
+        </ul>
+    </div>
+    <ul class="another-ul">
+        <a href="#"><li>Sign in</li></a>
+        <a href="#"><li>Log in</li></a>
+    </ul>
+</div>
+
+</body>
+</html>
